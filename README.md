@@ -59,6 +59,3 @@ This is a simple implementation of Conway's Game of Life simulation using SDL2 f
 ## Additional Information
 - This code uses a fixed grid size of 1230x780 pixels, where each cell is 10x10 pixels.
 - You can modify the code to change the initial configuration or add new patterns.
-
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
