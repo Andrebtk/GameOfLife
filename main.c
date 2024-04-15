@@ -17,15 +17,12 @@ static SDL_Renderer* renderer;
 
 
 
-/* remplit avec la couleur rgb un rectangle de largeur w et hauteur h,
-   dont le coin superieur gauche est en (x, y) */
 void CINI_fill_rect_rgb(int x, int y, int w, int h,	Uint8 r, Uint8 g, Uint8 b) {
 	SDL_Rect rectangle = {x, y, w, h};
 	SDL_SetRenderDrawColor(renderer, r, g, b, 255);
 	SDL_RenderFillRect(renderer, &rectangle);
     
 }
-
 
 
 int nbCells(){
@@ -260,8 +257,7 @@ int main(int argc, char **argv){
             timing=0;
         }
 
-        //usleep( 500000 );
-        //200 for normal speed
+
         SDL_Delay(10);
         timing++;
     }
